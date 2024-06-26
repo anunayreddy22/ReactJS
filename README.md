@@ -18,6 +18,8 @@ React Components
 Most of the applications comes with a series of files that do various things, mostlyrelated to configuration, but there's one file that stands out: App.js .
 App.js is the first React Component we go through.
 
+// Sample Code
+
 import React from 'react'
 import logo from './logo.svg'
 import './App.css'
@@ -25,3 +27,25 @@ function App() {
  return /* something */
 }
 export default App
+
+
+we export a function called App.
+
+The things we import in this case are a JavaScript library (the react npm
+package), an SVG image, and a CSS file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
